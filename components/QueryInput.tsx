@@ -37,7 +37,7 @@ export default function QueryInput({ onSubmit, isLoading }: QueryInputProps) {
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder=""
+            placeholder="Ask me anything: '15% tip on $120', 'AAPL stock price', 'calories in 2 bananas'"
             className="w-full pl-12 lg:pl-14 pr-4 py-4 lg:py-5 bg-background border border-border rounded-xl lg:rounded-2xl 
                      focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary/40 
                      text-foreground placeholder-muted-foreground text-base lg:text-lg
